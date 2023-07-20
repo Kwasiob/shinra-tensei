@@ -1,16 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.pharmacy_shop.HelloController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="main_form" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <AnchorPane prefHeight="850.0" prefWidth="359.0" styleClass="left-form" stylesheets="@../../../LoginDesign.css">
+               <children>
+                  <FontAwesomeIcon fill="WHITE" glyphName="AMBULANCE" layoutX="97.0" layoutY="321.0" size="10em" text="" />
+                  <Label layoutX="35.0" layoutY="338.0" text="PHARMACY MANAGEMENT SYSTEM" textFill="WHITE">
+                     <font>
+                        <Font name="BRFirma-Regular" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="359.0" prefHeight="850.0" prefWidth="841.0" styleClass="right-form" stylesheets="@../../../LoginDesign.css">
+               <children>
+                  <FontAwesomeIcon glyphName="USER_MD" layoutX="388.0" layoutY="180.0" size="7em" text="">
+                     <fill>
+                        <LinearGradient endX="0.7630331753554502" endY="0.5260663507109005" startX="0.5734597156398105" startY="0.15165876777251186">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.1860000044107437" green="0.36000001430511475" blue="0.18000000715255737" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.20527000725269318" green="0.38999998569488525" blue="0.1988999992609024" opacity="0.5851144790649414" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </FontAwesomeIcon>
+                  <Label layoutX="327.0" layoutY="201.0" stylesheets="@../../../../../LoginDesign.css" text="Welcome, Admin!" textFill="#6856a4fa">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="username" layoutX="311.0" layoutY="333.0" prefHeight="35.0" prefWidth="220.0" promptText="Username" styleClass="text-field" stylesheets="@../../../LoginDesign.css" />
+                  <TextField id="Password" fx:id="password" layoutX="311.0" layoutY="395.0" prefHeight="35.0" prefWidth="220.0" promptText="Password" styleClass="text-field" stylesheets="@../../../LoginDesign.css" />
+                  <Button fx:id="loginBtn" layoutX="371.0" layoutY="464.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" styleClass="login-btn" stylesheets="@../../../LoginDesign.css" text="Login" />
+                  <Button fx:id="close" layoutX="768.0" layoutY="14.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="50.0" styleClass="close" AnchorPane.rightAnchor="2.0" AnchorPane.topAnchor="2.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="CLOSE" size="1.5em" text="" />
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
