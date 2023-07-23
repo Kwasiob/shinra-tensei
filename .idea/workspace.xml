@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1846ee3-0866-4240-8797-b818e5e22022" name="Changes" comment="added models and controllers">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Unnamed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy_shop/src/LoginDesign.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy_shop/src/main/resources/LoginDesign.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy_shop/src/main/resources/com/example/pharmacy_shop/dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pharmacy_shop/src/main/resources/com/example/pharmacy_shop/dashboardDesign.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shinra-tensei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shinra-tensei.iml" afterDir="false" />
+    <list default="true" id="f1846ee3-0866-4240-8797-b818e5e22022" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pharmacy_shop/src/main/resources/com/example/pharmacy_shop/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/pharmacy_shop/src/main/resources/com/example/pharmacy_shop/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/Project/shinra-tensei&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Downloads/Dhiwise/lib/annotations-13.0.jar&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,6 +49,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.23563218&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -87,8 +78,19 @@
       <updated>1688558827003</updated>
       <workItem from="1689709466619" duration="2161000" />
       <workItem from="1689774832917" duration="13856000" />
-      <workItem from="1689810064891" duration="10597000" />
+      <workItem from="1689810064891" duration="12684000" />
+      <workItem from="1689955027620" duration="643000" />
+      <workItem from="1689963445635" duration="158000" />
     </task>
+    <task id="LOCAL-00001" summary="UI updated">
+      <option name="closed" value="true" />
+      <created>1689851472442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689851472442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added models and controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="added models and controllers" />
+    <MESSAGE value="UI updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI updated" />
   </component>
 </project>
